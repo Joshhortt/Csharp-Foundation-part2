@@ -16,9 +16,9 @@ namespace ConsoleUI
             List<PhysicalProductModel> cart = AddSampleData();  // shopping cart
             CustomerModel customer = GetCustomer();             // customer
 
-            foreach (PhysicalProductModel prod in cart)        // loop through every item of the cart, which is the product each individual product ship item
+            foreach (PhysicalProductModel prod in cart)        // loop through every item of the cart, which is the product each individual product 
             {
-                prod.ShipItem(customer);                       // product pass in the customer object
+                prod.ShipItem(customer);                       // ship item product pass in the customer object
             }
 
             Console.ReadLine();
