@@ -8,6 +8,7 @@ namespace DemoLibrary
 {
     public class CustomerModel
     {
+        // six Properties
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string StreetAddress { get; set; }

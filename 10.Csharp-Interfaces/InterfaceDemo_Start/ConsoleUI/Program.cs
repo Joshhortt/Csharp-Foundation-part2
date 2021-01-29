@@ -48,3 +48,8 @@ namespace ConsoleUI
         }
     }
 }
+/* OUTPUT
+Simulating shipping Nerd Football to Josh in Lagos
+Simulating shipping Joshhortt T-Shirt to Josh in Lagos
+Simulating shipping Hard Drive to Josh in Lagos
+ */

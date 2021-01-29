@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class PhysicalProductModel
+    public class PhysicalProductModel // Physical Product Model
     {
-        public string Title { get; set; }
-        public bool HasOrderBeenCompleted { get; private set; }
+        public string Title { get; set; } // Each one has a title
+        public bool HasOrderBeenCompleted { get; private set; } // has bollean Has order been completed
 
-        public void ShipItem(CustomerModel customer)
+        public void ShipItem(CustomerModel customer) // method called ship Item, that takes in the customer model
         {
-            if (HasOrderBeenCompleted == false)
+            if (HasOrderBeenCompleted == false) // if the order has not been completed than we have the Console Writeline below
             {
-                Console.WriteLine($"Simulating shipping { Title } to { customer.FirstName } in { customer.City }");
-                HasOrderBeenCompleted = true;
+                Console.WriteLine($"Simulating shipping { Title } to { customer.FirstName } in { customer.City }"); 
+                // simulating shipping this item to this person in this city
+
+                HasOrderBeenCompleted = true;    // than we mark the order complete
             }
         }
     }
