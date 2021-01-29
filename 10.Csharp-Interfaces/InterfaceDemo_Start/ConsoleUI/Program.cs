@@ -13,12 +13,12 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            List<PhysicalProductModel> cart = AddSampleData();  // shopping cart
-            CustomerModel customer = GetCustomer();             // customer
+            List<PhysicalProductModel> cart = AddSampleData(); 
+            CustomerModel customer = GetCustomer();            
 
-            foreach (PhysicalProductModel prod in cart)        // loop through every item of the cart, which is the product each individual product 
+            foreach (PhysicalProductModel prod in cart)        
             {
-                prod.ShipItem(customer);                       // ship item product pass in the customer object
+                prod.ShipItem(customer);                       
             }
 
             Console.ReadLine();
@@ -48,8 +48,3 @@ namespace ConsoleUI
         }
     }
 }
-/* OUTPUT
-Simulating shipping Nerd Football to Josh in Lagos
-Simulating shipping Joshhortt T-Shirt to Josh in Lagos
-Simulating shipping Hard Drive to Josh in Lagos
- */

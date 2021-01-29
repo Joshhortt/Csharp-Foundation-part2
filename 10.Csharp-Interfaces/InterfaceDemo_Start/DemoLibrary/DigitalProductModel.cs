@@ -8,10 +8,10 @@ namespace DemoLibrary
 {
 	public class DigitalProductModel
 	{
-		public string Title { get; set; }  // 1. Add a title
-		public void ShipItem(CustomerModel customer)  // 2. Add Ship Item method
+		public string Title { get; set; } 
+		public void ShipItem(CustomerModel customer)  
 		{
-			Console.WriteLine($"Simulating emailing { Title } to { customer.EmailAddress }");  // 3. emailing this item to this Email address
+			Console.WriteLine($"Simulating emailing { Title } to { customer.EmailAddress }");  
 		}
 	}
 }
