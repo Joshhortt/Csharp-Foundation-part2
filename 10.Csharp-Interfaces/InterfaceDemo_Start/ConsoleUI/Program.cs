@@ -13,12 +13,12 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            List<PhysicalProductModel> cart = AddSampleData();
-            CustomerModel customer = GetCustomer();
+            List<PhysicalProductModel> cart = AddSampleData();  // shopping cart
+            CustomerModel customer = GetCustomer();             // customer
 
-            foreach (PhysicalProductModel prod in cart)
+            foreach (PhysicalProductModel prod in cart)        // loop through every item of the cart, which is the product each individual product ship item
             {
-                prod.ShipItem(customer);
+                prod.ShipItem(customer);                       // product pass in the customer object
             }
 
             Console.ReadLine();
