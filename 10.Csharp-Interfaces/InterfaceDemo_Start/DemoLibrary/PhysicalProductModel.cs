@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class PhysicalProductModel : IProductModel // Applying interface to Physical Product Model class
+    public class PhysicalProductModel : IProductModel 
     {
         public string Title { get; set; } 
         public bool HasOrderBeenCompleted { get; private set; } 
@@ -17,7 +17,6 @@ namespace DemoLibrary
             {
                 Console.WriteLine($"Simulating shipping { Title } to { customer.FirstName } in { customer.City }"); 
                
-
                 HasOrderBeenCompleted = true;   
             }
         }
