@@ -1,0 +1,10 @@
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\bin\Debug\DemoLibrary.dll
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\bin\Debug\DemoLibrary.pdb
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\10.Csharp-Interfaces\InterfaceDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.pdb
