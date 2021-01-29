@@ -28,11 +28,11 @@ namespace ConsoleUI
         {
             return new CustomerModel
             {
-                FirstName = "Tim",
-                LastName = "Corey",
-                City = "Scranton",
-                EmailAddress = "tim@IAmTimCorey.com",
-                PhoneNumber = "555-1212"
+                FirstName = "Josh",
+                LastName = "Hortt",
+                City = "Lagos",
+                EmailAddress = "joshhortt@yahoo.com",
+                PhoneNumber = "911-815-877"
             };
         }
 
@@ -40,8 +40,8 @@ namespace ConsoleUI
         {
             List<PhysicalProductModel> output = new List<PhysicalProductModel>();
 
-            output.Add(new PhysicalProductModel { Title = "Nerf Football" });
-            output.Add(new PhysicalProductModel { Title = "IAmTimCorey T-Shirt" });
+            output.Add(new PhysicalProductModel { Title = "Nerd Football" });
+            output.Add(new PhysicalProductModel { Title = "Joshhortt T-Shirt" });
             output.Add(new PhysicalProductModel { Title = "Hard Drive" });
 
             return output;
