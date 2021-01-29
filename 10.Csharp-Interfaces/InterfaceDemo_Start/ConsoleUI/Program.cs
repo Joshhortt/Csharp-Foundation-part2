@@ -20,10 +20,9 @@ namespace ConsoleUI
             {
                 prod.ShipItem(customer);    
                 
-                if (prod is IDigitalProductModel digital)  // 3. If item whis is IDigitalProductModel put that in that digital variable
+                if (prod is IDigitalProductModel digital)  
 				{
 					Console.WriteLine($"For the { digital.Title } you have { digital.TotalDownloadsLeft } downloads left.");
-                    // 4. I have access to the title but also to the downloads left, which is not part of the IProductModel Interface contract
 				}
             }
 
@@ -49,8 +48,8 @@ namespace ConsoleUI
             output.Add(new PhysicalProductModel { Title = "Nerd Football" });
             output.Add(new PhysicalProductModel { Title = "Joshhortt T-Shirt" });
             output.Add(new PhysicalProductModel { Title = "Hard Drive" });
-            output.Add(new DigitalProductModel { Title = "Lesson Source Code" });  
-
+           // output.Add(new DigitalProductModel { Title = "Lesson Source Code" });  // 8. Just comment it to make CourseProductModel work without error.
+            output.Add(new CourseProductModel { Title = ".Net Console Aplicatios " });  // 7. Add CourseProductModel output
             return output;
         }
     }
@@ -59,5 +58,5 @@ namespace ConsoleUI
 Simulating shipping Nerd Football to Josh in Lagos
 Simulating shipping Joshhortt T-Shirt to Josh in Lagos
 Simulating shipping Hard Drive to Josh in Lagos
-Simulating emailing Lesson Source Code to joshhortt@yahoo.com
+Added the .Net Console Aplicatios  course to Josh's account.
  */

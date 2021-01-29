@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-	public interface IDigitalProductModel : IProductModel  // 1. The inteface IDigitalProductModel implements the inteface IProductModel
+	public interface IDigitalProductModel : IProductModel  
 	{
-		int TotalDownloadsLeft { get; }   // 2. Says Ia m not removing anything but adding more sff it
+		int TotalDownloadsLeft { get; }  
 	}
 }
