@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class PhysicalProductModel 
+    public class PhysicalProductModel : IProductModel // Applying interface to Physical Product Model class
     {
         public string Title { get; set; } 
         public bool HasOrderBeenCompleted { get; private set; } 
