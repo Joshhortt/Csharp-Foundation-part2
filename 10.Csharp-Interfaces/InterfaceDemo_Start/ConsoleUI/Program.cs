@@ -13,12 +13,18 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            List<IProductModel> cart = AddSampleData();  // 1. instead of giving the actual class we give the interface
+            List<IProductModel> cart = AddSampleData(); 
             CustomerModel customer = GetCustomer();            
 
-            foreach (IProductModel prod in cart)           // 5. Change to interface
+            foreach (IProductModel prod in cart)           
             {
-                prod.ShipItem(customer);                       
+                prod.ShipItem(customer);    
+                
+                if (prod is IDigitalProductModel digital)  // 3. If item whis is IDigitalProductModel put that in that digital variable
+				{
+					Console.WriteLine($"For the { digital.Title } you have { digital.TotalDownloadsLeft } downloads left.");
+                    // 4. I have access to the title but also to the downloads left, which is not part of the IProductModel Interface contract
+				}
             }
 
             Console.ReadLine();
@@ -36,14 +42,14 @@ namespace ConsoleUI
             };
         }
 
-        private static List<IProductModel> AddSampleData()  // 2. Change to interface
+        private static List<IProductModel> AddSampleData()  
         {
-            List<IProductModel> output = new List<IProductModel>();   // 3. Change to interface
+            List<IProductModel> output = new List<IProductModel>();  
 
             output.Add(new PhysicalProductModel { Title = "Nerd Football" });
             output.Add(new PhysicalProductModel { Title = "Joshhortt T-Shirt" });
             output.Add(new PhysicalProductModel { Title = "Hard Drive" });
-            output.Add(new DigitalProductModel { Title = "Lesson Source Code" });  // 4. Add a digital product
+            output.Add(new DigitalProductModel { Title = "Lesson Source Code" });  
 
             return output;
         }

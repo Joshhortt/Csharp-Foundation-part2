@@ -15,3 +15,4 @@ namespace DemoLibrary
 		void ShipItem(CustomerModel customer);  
 	}
 }
+// 0. Note that Interface has no private, internal and os on acess modifiers. It's all public.
