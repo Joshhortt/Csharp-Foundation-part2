@@ -53,3 +53,12 @@ namespace ConsoleUI
         }
     }
 }
+
+/* OUTPUT
+Simulating shipping Nerd Football to Josh in Lagos
+Simulating shipping Joshhortt T-Shirt to Josh in Lagos
+Simulating shipping Hard Drive to Josh in Lagos
+Simulating emailing Lesson Source Code to joshhortt@yahoo.com
+For the Lesson Source Code you have 4 downloads left.
+Added the .Net Console Aplicatios course to Josh's account.
+*/

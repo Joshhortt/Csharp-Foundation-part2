@@ -1,0 +1,5 @@
+C:\Users\josec\Source\Repos\Csharp-Foundation-part2\10.Csharp-Interfaces\InterfaceDemo_End\DemoLibrary\bin\Debug\DemoLibrary.dll
+C:\Users\josec\Source\Repos\Csharp-Foundation-part2\10.Csharp-Interfaces\InterfaceDemo_End\DemoLibrary\bin\Debug\DemoLibrary.pdb
+C:\Users\josec\Source\Repos\Csharp-Foundation-part2\10.Csharp-Interfaces\InterfaceDemo_End\DemoLibrary\obj\Debug\DemoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation-part2\10.Csharp-Interfaces\InterfaceDemo_End\DemoLibrary\obj\Debug\DemoLibrary.dll
+C:\Users\josec\Source\Repos\Csharp-Foundation-part2\10.Csharp-Interfaces\InterfaceDemo_End\DemoLibrary\obj\Debug\DemoLibrary.pdb
